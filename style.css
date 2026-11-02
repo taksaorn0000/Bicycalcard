@@ -1,0 +1,70 @@
+body {
+  font-family: 'Prompt', sans-serif;
+}
+
+/* Smooth scrolling Motion */
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/banner.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* nav light Smooth */
+.navbar-light .navbar-nav .nav-link {
+  transition: all 0.5s ease-in-out ;
+}
+/* เปลี่ยนสีเมนูเมื่อเมาส์ชี้ */
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #940515 !important; 
+}
+
+/* Motion Effect สำหรับการ์ดไพ่เวลาเมาส์ชี้ */
+.card-hover {
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 1rem 3rem rgba(38, 28, 28, 0.293) !important;
+}
+
+/* Motion Effect สำหรับปุ่มดูเพิ่มเติม */
+.btn-hover {
+  transition: all 0.3s ease;
+}
+
+
+.btn-hover:hover {
+  transform: scale(1.05);
+  background-color: #212529;
+  color: #fff;
+}
+
+/* เปลี่ยนสีเมนูใน Footer ตอนเมาส์ชี้ */
+.footer-link {
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #940515 !important;
+}
+
+/* Motion Social Media */
+.social-btn {
+  transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+  transform: translateY(-3px);
+  background-color: #940515;
+  border-color: #940515;
+  color: #fff;
+}
+

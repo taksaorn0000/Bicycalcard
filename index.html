@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <title>Home | Personal Collection</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+            <div class="container">
+
+                <!-- Logo -->
+                <a class="navbar-brand" href="#home">
+                    <img src="images/logo.svg" alt="Bicycle Collection Logo" height="40" class="d-inline-block align-text-top">
+                </a>
+                
+                 <!-- ปุ่มเปิดเมนูมือถือ (Lucide Icons) -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainNav" aria-controls="mainNav" aria-label="เปิดเมนู">
+                    <i class="icon" data-lucide="menu" aria-hidden="true"></i>
+                </button>
+
+                <!-- เมนูแบบ Offcanvas -->
+                <div class="offcanvas-md offcanvas-end" tabindex="-1" id="mainNav" aria-labelledby="menuTitle">
+                    <div class="offcanvas-header">
+                        <span id="menuTitle">Bicycle Collection</span>
+                        <button class="menu-close" type="button" data-bs-dismiss="offcanvas" data-bs-target="#mainNav" aria-label="ปิดเมนู">
+                            <i class="icon" data-lucide="x" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="offcanvas-body">
+
+                        <!-- ลิงก์เมนูทั้ง 4 หน้า -->
+                        <ul class="navbar-nav ms-auto gap-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="story.html">STORY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="collection.html">COLLECTION</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">ABOUT</a>
+                            </li>
+                        </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+     <!-- HOME -->
+    <main id="main" tabindex="-1">     
+    <section id="home" class="min-vh-100 d-flex align-items-center bg-dark text-white pt-5">
+      <div class="container">
+        <div class="row align-items-center">
+          
+           <!-- h1 haed -->
+          <div class="col-lg-6 text-center text-lg-start">
+            <h1 class="display-3 fw-bold mb-3">
+              BICYCLE<br>CARD COLLECTION
+            </h1>
+            <p class="lead mb-4 text-white-50">
+              รวบรวมของงานศิลปะบนหน้าไพ่ Bicycle By Mustang  
+            </p>
+            <a href="#story" class="btn btn-outline-light btn-lg px-4 rounded-pill">
+              Explore Story
+            </a>
+          </div>
+
+          <div class="col-lg-6 mt-5 mt-lg-0 text-center">
+            <!-- ยังไม่ใส่ครับผม -->
+            <!-- <img src="images/hero-card.png" alt="Bicycle Card Key Visual" class="img-fluid drop-shadow" style="max-height: 80vh;"> -->
+          </div>
+
+        </div>
+      </div>
+
+
+    </section>
+    
+    <!-- STORY SECTION -->
+    <section id="story" class="py-5">
+      <div class="container py-5">
+        
+        <!-- หัวข้อ -->
+        <div class="text-center mb-5">
+          <h2 class="display-5 fw-bold">THE COLLECTION STORY</h2>
+          <p class="text-muted">3 สำรับไฮไลต์ที่หลงใหล ก่อนจะพาไปดูหมวดหมู่อื่นๆ</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+          
+          <!-- สำรับ1 -->
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm card-hover">
+              
+              <img src="images/card1.jpg" class="card-img-top" alt="Deck 1">
+              <div class="card-body text-center">
+                <h5 class="fw-bold">Disney Fantasia</h5>
+                <p class="text-muted small">ความคลาสสิกเหนือกาลเวลา</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- สำรับ2 -->
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm card-hover">
+              <img src="images/card2.jpg" class="card-img-top" alt="Deck 2">
+              <div class="card-body text-center">
+                <h5 class="fw-bold">Celebration Bundle</h5>
+                <p class="text-muted small">มนต์เสน่ห์แห่งห้วงสุรา</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- สำรับ3 -->
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm card-hover">
+              <img src="images/card3.jpg" class="card-img-top" alt="Deck 3">
+              <div class="card-body text-center">
+                <h5 class="fw-bold">Disney Mickey and Friends Holiday</h5>
+                <p class="text-muted small">ความสุขแห่งเทศกาลคริสต์มาส</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+    </section></main>
+    <footer>
+        <!-- place footer here -->
+         <footer class="bg-dark text-white pt-5 pb-4 mt-5">
+      <div class="container">
+        <div class="row g-4">
+          
+          <!-- colm 1 -->
+          <div class="col-lg-5 col-md-12">
+            <h4 class="fw-bold mb-3">BICYCLE COLLECTION</h4>
+            <p class="text-white-50 small pe-lg-5">
+              รวบรวมเสน่ห์ของงานศิลปะบนหน้าไพ่ ลวดลายสุดคลาสสิก 
+              และเรื่องราวเบื้องหลังสำรับไพ่ที่น่าหลงใหล ที่ไม่ใช่แค่ไพ่ แต่เป็นงานศิลปะที่มีชีวิต ผ่านการออกแบบที่พิถีพิถันและความคิดสร้างสรรค์ที่ไม่สิ้นสุด
+            </p>
+          </div>
+
+          <!-- colm 2 -->
+            <div class="col-lg-3 col-md-6">
+              <h6 class="fw-bold mb-3 text-uppercase" style="letter-spacing: 1px;">Menu</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="index.html" class="text-white-50 text-decoration-none footer-link">HOME</a></li>
+                <li class="mb-2"><a href="story.html" class="text-white-50 text-decoration-none footer-link">STORY</a></li>
+                <li class="mb-2"><a href="collection.html" class="text-white-50 text-decoration-none footer-link">COLLECTION</a></li>
+                <li class="mb-2"><a href="about.html" class="text-white-50 text-decoration-none footer-link">ABOUT</a></li>
+              </ul>
+            </div>
+
+          <!-- colm 3 Contact -->
+          <div class="col-lg-4 col-md-6">
+            <h6 class="fw-bold mb-3 text-uppercase" style="letter-spacing: 1px;">Contact</h6>
+            <p class="text-white-50 small mb-3">ติดตามผลงานและพูดคุยกันได้ที่ช่องทางด้านล่าง</p>
+            
+            <div class="d-flex gap-3">
+                <!-- ลิงก์ Facebook -->
+              <a href="https://www.facebook.com" target="_blank" class="btn btn-outline-light btn-sm rounded-pill px-4 social-btn">
+                Facebook
+              </a>
+    
+                <!-- ลิงก์ Instagram -->
+              <a href="https://www.instagram.com" target="_blank" class="btn btn-outline-light btn-sm rounded-pill px-4 social-btn">
+                Instagram
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <hr class="border-secondary mt-5 mb-4">
+        
+        <!-- ส่วน Copyright ด้านล่างสุด -->
+        <div class="row align-items-center">
+          <div class="col-12 text-center text-white-50 small">
+            &copy; 2026 Bicycle Card Collection. Designed by Mustang.
+          </div>
+        </div>
+      </div>
+    </footer>
+    </footer>
+
+    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
